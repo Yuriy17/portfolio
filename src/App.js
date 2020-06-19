@@ -9,31 +9,9 @@ import Contacts from './components/contacts/Contacts';
 import './App.css';
 import ParallaxTitle from './components/layouts/ParallaxTitle';
 
-// function App() {
-//   return (
-
-//     <HashRouter>
-//         <div>
-//           <h1>Simple SPA</h1>
-//           <ul className="header">
-//             <li><NavLink exact to="/">Home</NavLink></li>
-//             <li><NavLink to="/stuff">Stuff</NavLink></li>
-//             <li><NavLink to="/contact">Contact</NavLink></li>
-//           </ul>
-//           <div className="content">
-//             <Route  path="/" component={ WorksList }/>
-//             <Route path="/stuff" component={Skills}/>
-//             <Route path="/contact" component={Contacts}/>
-//           </div>
-
-//         </div>
-//       </HashRouter>
-//   );
-// }
-
 const App = () => (
-  <Container>
-    <Row>
+  <Container fluid >
+    <Row noGutters={true}>
       <Col>
         <Header />
         <main className="main">
