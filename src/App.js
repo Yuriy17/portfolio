@@ -1,15 +1,13 @@
 import React, { Fragment } from 'react';
-import {
-  Route,
-  Switch,
-} from "react-router-dom";
-import Header from './components/Header'
-import { Container, Row, Col } from 'react-bootstrap'; 
-import WorksList from './components/WorksList'
-import Skills from './components/Skills'
-import Contacts from './components/Contacts'
+import { Route, Switch } from 'react-router-dom';
+import Header from './components/layouts/Header';
+import { Container, Row, Col } from 'react-bootstrap';
+import WorksList from './components/worksList/WorksList';
+import Skills from './components/skills/Skills';
+import Contacts from './components/contacts/Contacts';
 
 import './App.css';
+import ParallaxTitle from './components/layouts/ParallaxTitle';
 
 // function App() {
 //   return (
@@ -34,22 +32,21 @@ import './App.css';
 // }
 
 const App = () => (
-<Container>
-<Row>
-<Col>
-  <Header />
-
-
-  <Switch>
-    <Route exact path="/" component={WorksList} />
-    <Route path="/skills" component={Skills} />
-    <Route path="/contacts" component={Contacts} />
-  </Switch> 
-   </Col>
-   </Row>
- 
+  <Container>
+    <Row>
+      <Col>
+        <Header />
+        <main className="main">
+          <ParallaxTitle />
+        </main>
+        <Switch>
+          <Route exact path="/" component={WorksList} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/contacts" component={Contacts} />
+        </Switch>
+      </Col>
+    </Row>
   </Container>
-  );
+);
 
 export default App;
-
