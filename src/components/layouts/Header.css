@@ -1,4 +1,31 @@
-header.header > .container > .row > .col{
+/* .header__navbar{
+  padding-top: 15px;
+}
+ */
+.header__nav-link{
+  font-size: 2rem;
+}
+
+.header__title{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  letter-spacing: 0.5rem;
+}
+
+@media (min-width: 768px) { 
+  .header__title{
+    padding-bottom: 0px;
+  }
+ }
+
+.header__column-1{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header__column-2{
+  display: flex;
+  align-items: flex-end;
+  justify-content:center;
 }

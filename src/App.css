@@ -2,3 +2,9 @@
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
+a{
+  color: #495057!important;
+}
+a.active{
+  color: #2eb8c3 !important;
+}
