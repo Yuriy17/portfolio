@@ -9,7 +9,7 @@ const Header = () => (
     <Container>
       <Row>
         <Col>
-          <h1>YURIY SHILENKOV</h1>
+          <h1 className="title">YURIY SHILENKOV</h1>
           <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
             <Nav.Item eventKey="1" href="/">
               <Nav.Link as={NavLink} exact to="/">
