@@ -5,7 +5,7 @@ import Contacts from './components/contacts/Contacts';
 import Header from './components/layouts/Header';
 import ParallaxTitle from './components/layouts/ParallaxTitle';
 import Skills from './components/skills/Skills';
-import WorksList from './components/worksList/WorksList';
+import WorkList from './components/worksList/WorkList';
 
 
 const App = () => (
@@ -14,7 +14,7 @@ const App = () => (
     <main className="main">
       <ParallaxTitle />
       <Switch>
-        <Route exact path="/" component={WorksList} />
+        <Route exact path="/" component={WorkList} />
         <Route path="/skills" component={Skills} />
         <Route path="/contacts" component={Contacts} />
       </Switch>

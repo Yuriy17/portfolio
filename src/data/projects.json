@@ -1,0 +1,15 @@
+{
+  "fancyWeather": {
+    "title": "Weather forecast",
+    "url": "https://yuriy17-fancy-weather.netlify.app/",
+    "img": "static/media/fancy-weather.png",
+    "description": "project with using MVC pattern, ES6 syntax, multiple languages"
+  },
+
+  "theYalow": {
+    "title": "The yalow",
+    "url": "https://yuriy17-theyalow.netlify.app/",
+    "img": "static/media/theyalow.png",
+    "description": "Pixel perfect layout using pure css"
+  }
+}

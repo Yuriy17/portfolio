@@ -1,3 +1,16 @@
 .works-list__card{
   max-width: 500px;
 }
+
+.works-list__card-button{
+  color: white !important;
+  font-size: 1.8rem;
+}
+
+.works-list__card-title{
+  font-size: 2rem;
+}
+
+.works-list__card-description{
+  font-size: 1.5rem;
+}
