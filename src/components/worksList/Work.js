@@ -5,6 +5,8 @@ import './Work.css';
 
 export default function Work(props) {
   const {url, title, description, img} = props.project;
+  console.log(props);
+  
   return (
     <Col xs={12} md={6} xl={4}>
       <Card className="works-list__card">

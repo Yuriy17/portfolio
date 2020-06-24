@@ -13,17 +13,17 @@ const Header = () => (
         </Col>
         <Col xs={12} md={"auto"} className="header__column-2">
           <Nav className="header__navbar" variant="tabs" activeKey="1" onSelect={handleSelect}>
-            <Nav.Item eventKey="1" href="/">
+            <Nav.Item eventkey="1" href="/">
               <Nav.Link className="header__nav-link" as={NavLink} exact to="/">
                 Works List
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item eventKey="2" href="/skills">
+            <Nav.Item eventkey="2" href="/skills">
               <Nav.Link className="header__nav-link" as={NavLink} to="/skills">
                 Skills
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item eventKey="3" href="/contacts">
+            <Nav.Item eventkey="3" href="/contacts">
               <Nav.Link className="header__nav-link" as={NavLink} to="/contacts">
                 Contacts
               </Nav.Link>
