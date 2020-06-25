@@ -4,7 +4,7 @@
     "title": "Weather forecast",
     "url": "https://yuriy17-fancy-weather.netlify.app/",
     "img": "static/media/fancy-weather.png",
-    "description": "project with using MVC pattern, ES6 syntax, multiple languages"
+    "description": "project with using MVC pattern, ES6 syntax, multiple languages, material components"
   },
 
   {
@@ -13,5 +13,13 @@
     "url": "https://yuriy17-theyalow.netlify.app/",
     "img": "static/media/theyalow.png",
     "description": "Pixel perfect layout using pure css"
+  },
+  {
+    "id": 3,
+    "title": "Virtual keyboard",
+    "url": "https://yuriy17.github.io/codejam-virtual-keyboard/",
+    "img": "static/media/virtual-keyboard.png",
+    "description": "Work with using different events of keyboard and mouse",
+    "githubUrl": "https://github.com/Yuriy17/codejam-virtual-keyboard/"
   }
 ]
