@@ -4,22 +4,79 @@
     "title": "Weather forecast",
     "url": "https://yuriy17-fancy-weather.netlify.app/",
     "img": "static/media/fancy-weather.png",
-    "description": "project with using MVC pattern, ES6 syntax, multiple languages, material components"
+    "description": "I learned how to adapt MVC pattern to Javascript, also use ES6 syntax, multiple languages, material components",
+    "githubUrl": "https://github.com/Yuriy17/fancy-weather"
   },
 
   {
     "id": 2,
-    "title": "The yalow",
-    "url": "https://yuriy17-theyalow.netlify.app/",
-    "img": "static/media/theyalow.png",
-    "description": "Pixel perfect layout using pure css"
+    "title": "English for kids",
+    "url": "https://yuriy17-english-for-kids.netlify.app/",
+    "img": "static/media/english-for-kids.png",
+    "description": "I learned developing spa application with aws speech service, ES6, SCSS syntax, used Observable pattern"
   },
   {
     "id": 3,
+    "title": "Movie Searcher",
+    "url": "https://yuriy17-movie-search.netlify.app",
+    "img": "static/media/movie-searcher.png",
+    "description": "I learned OmdbApi, integrating virtual keyboard and increase knowledge about Swiper library",
+    "githubUrl": "https://github.com/Yuriy17/portfolio-2019"
+  },
+  {
+    "id": 4,
     "title": "Virtual keyboard",
     "url": "https://yuriy17.github.io/codejam-virtual-keyboard/",
     "img": "static/media/virtual-keyboard.png",
-    "description": "Work with using different events of keyboard and mouse",
+    "description": "I learned how to work with using different events of keyboard and mouse",
     "githubUrl": "https://github.com/Yuriy17/codejam-virtual-keyboard/"
+  },
+  {
+    "id": 5,
+    "title": "Singolo",
+    "url": "https://yuriy17-singolo.netlify.app",
+    "img": "static/media/singolo.png",
+    "description": "I consolidated knowledge about static site created using HTML5, SASS, Pixel Perfect",
+    "githubUrl": "https://github.com/Yuriy17/singolo"
+  },
+  {
+    "id": 6,
+    "title": "Codejam Pallete",
+    "url": "https://yuriy17-codejam-pallete.netlify.app",
+    "img": "static/media/codejam-pallete.png",
+    "description": "I learned canvas and using fetch by example unsplash API",
+    "githubUrl": "https://github.com/Yuriy17/singolo"
+  },
+  {
+    "id": 7,
+    "title": "Lodash presentation",
+    "url": "https://yuriy17-lodash-presentation.netlify.app",
+    "img": "static/media/lodash-presentation.png",
+    "description": "I learned creating presentation with HTML presentation framework Reveal.js",
+    "githubUrl": "https://github.com/Yuriy17/lodash-presentation"
+  },
+  {
+    "id": 8,
+    "title": "My first portfolio",
+    "url": "https://yuriy17-portfolio-2019.netlify.app",
+    "img": "static/media/portfolio2019.png",
+    "description": "I learned base of using Swiper.js library with iframe HTML5 for my projects",
+    "githubUrl": "https://github.com/Yuriy17/portfolio-2019"
+  },
+  {
+    "id": 9,
+    "title": "Repair design project",
+    "url": "https://yuriy17-repair-design-project.netlify.app",
+    "img": "static/media/repair-design-project.png",
+    "description": "I learned using Sass preprocessor by example pixel perfect layout",
+    "githubUrl": "https://github.com/Yuriy17/repair-design-project"
+  },
+  {
+    "id": 10,
+    "title": "The yalow",
+    "url": "https://yuriy17-theyalow.netlify.app/",
+    "img": "static/media/theyalow.png",
+    "description": "I learned using pure css for pixel perfect layout",
+    "githubUrl": "https://github.com/Yuriy17/theyalow"
   }
 ]

@@ -1,19 +1,28 @@
 .works-list__card {
   max-width: 500px;
+  height: 100%;
 }
-
+.works-list__card-buttons-block{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .works-list__card-button {
   color: white !important;
   background-color: #332ec3;
   border-color: #332ec3;
   font-size: 1.8rem;
+  width: 50%;
 }
 
-.works-list__card-link {
-  font-size: 3rem;
-  position: absolute;
-  bottom: 1.25rem;
-  right: 1.25rem;
+.works-list__card-github-icon {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .works-list__card-title {
@@ -23,11 +32,23 @@
 .works-list__card-description {
   font-size: 1.5rem;
 }
-
-.col-xl-4 {
-  margin-top: 20px;
+.works-list__column {
+  margin-top: 85px;
+}
+@media (min-width: 540px) {
+  .works-list__column {
+    margin-top: 55px !important;
+  }
 }
 
-.col-md-6 {
-  margin-top: 10px;
+@media (min-width: 768px) {
+  .works-list__column {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .works-list__column {
+    margin-top: 20px;
+  }
 }
