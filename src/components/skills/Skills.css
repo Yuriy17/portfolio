@@ -1,0 +1,17 @@
+.skills__skill{
+  display: flex;
+  min-height: 125px;
+}
+
+.skills__skill-icon-block{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills__skill-description-block{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
