@@ -1,3 +1,9 @@
+.skills{
+  /* for vertical centering set full height minus head and parallax */
+  min-height: calc( 100vh - 450px - 65px );
+  padding: 40px;
+}
+
 .skills__skill{
   display: flex;
   min-height: 125px;
@@ -10,6 +16,15 @@
   justify-content: center;
 }
 
+.skills__skill-icon-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.5rem;
+  height: 9.5rem;
+  background-color: #7adbe2;
+  border-radius: 50%;
+}
 .skills__skill-description-block{
   width: 50%;
   display: flex;

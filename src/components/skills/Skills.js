@@ -6,7 +6,9 @@ import './Skills.css';
 export default function Skills() {
   const skillsElements = skills.map((element) => (
     <Col xs={12} md={6} xl={4} className="skills__skill">
-      <div className="skills__skill-icon-block">{element.icon}</div>
+      <div className="skills__skill-icon-block">
+        <span class="skills__skill-icon-circle">{element.icon}</span>
+      </div>
       <div className="skills__skill-description-block">
         <h2 className="skills__skill-title">{element.title}</h2>
       </div>
@@ -14,7 +16,7 @@ export default function Skills() {
   ));
   return (
     <Container>
-      <Row>{skillsElements}</Row>
+      <Row className="skills">{skillsElements}</Row>
     </Container>
   );
 }

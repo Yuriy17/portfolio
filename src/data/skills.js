@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaSass } from 'react-icons/fa';
-import { GrCss3, GrGithub, GrHtml5, GrJs, GrMysql, GrReactjs, GrTechnology, GrTerminal } from 'react-icons/gr';
+import { FiGithub } from 'react-icons/fi';
+import { GrCss3, GrHtml5, GrJs, GrMysql, GrReactjs, GrTechnology, GrTerminal } from 'react-icons/gr';
 import { IconContext } from 'react-icons/lib';
 
 export default [
@@ -23,7 +24,7 @@ export default [
   {
     title: 'CSS3',
     icon: (
-      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '6.5rem' }}>
+      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '5.5rem' }}>
         <GrCss3 />
       </IconContext.Provider>
     ),
@@ -31,7 +32,7 @@ export default [
   {
     title: 'SASS',
     icon: (
-      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '6.5rem' }}>
+      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '5.5rem' }}>
         <FaSass />
       </IconContext.Provider>
     ),
@@ -39,7 +40,7 @@ export default [
   {
     title: 'HTML5',
     icon: (
-      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '6.5rem' }}>
+      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '5.5rem' }}>
         <GrHtml5 />
       </IconContext.Provider>
     ),
@@ -47,7 +48,7 @@ export default [
   {
     title: 'WEBPACK',
     icon: (
-      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '6.5rem' }}>
+      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '4.5rem' }}>
         <GrTechnology />
       </IconContext.Provider>
     ),
@@ -55,15 +56,15 @@ export default [
   {
     title: 'GitHub',
     icon: (
-      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '6.5rem' }}>
-        <GrGithub />
+      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '4.5rem' }}>
+        <FiGithub />
       </IconContext.Provider>
     ),
   },
   {
     title: 'Bash',
     icon: (
-      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '6.5rem' }}>
+      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '4.5rem' }}>
         <GrTerminal />
       </IconContext.Provider>
     ),
@@ -71,7 +72,7 @@ export default [
   {
     title: 'Mysql',
     icon: (
-      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '6.5rem' }}>
+      <IconContext.Provider value={{ className: 'skills__skill-icon', size: '5.5rem' }}>
         <GrMysql />
       </IconContext.Provider>
     ),
