@@ -54,7 +54,7 @@ export default [
     ),
   },
   {
-    title: 'GitHub',
+    title: 'Git',
     icon: (
       <IconContext.Provider value={{ className: 'skills__skill-icon', size: '4.5rem' }}>
         <FiGithub />
