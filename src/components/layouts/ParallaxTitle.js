@@ -1,6 +1,6 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import './ParallaxTitle.css';
-import { Container, Row, Col } from 'react-bootstrap';
 
 const ParallaxTitle = () => {
   return (
@@ -10,7 +10,7 @@ const ParallaxTitle = () => {
           <div className="description">
             <h2 className="title">Front-end developer</h2>
             <p>Develop using Javascript, React, HTML, CSS and I like it</p>
-            <p>Ready to solve your task!</p>
+            <p>Ready to solve your tasks!</p>
           </div>
         </Col>
       </Row>

@@ -26,9 +26,10 @@ export default function Contacts() {
                 <b>EMAIL:</b> <a href="mailto:yuriy_sh@zoho.com">yuriy_sh@zoho.com</a>
               </p>
             </div>
+              
             <div className="icons-block">
               <a href="https://www.linkedin.com/in/yuriyshilenkov/" target="__blank" className="icons-icon-circle">
-                <IconContext.Provider value={{ className: 'icons-icon', size: '2.5rem' }}>
+                <IconContext.Provider value={{ className: 'icons-icon', size: '2rem' }}>
                   <GrLinkedinOption />
                 </IconContext.Provider>
               </a>
@@ -38,7 +39,7 @@ export default function Contacts() {
                 </IconContext.Provider>
               </a>
               <a href="https://t.me/yuriy821" target="__blank" className="icons-icon-circle">
-                <IconContext.Provider value={{ className: 'icons-icon', size: '2.5rem' }}>
+                <IconContext.Provider value={{ className: 'icons-icon', size: '2rem' }}>
                   <FaTelegramPlane />
                 </IconContext.Provider>
               </a>

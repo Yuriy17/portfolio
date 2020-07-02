@@ -22,7 +22,7 @@ export default [
     ),
   },
   {
-    title: 'CSS3',
+    title: 'CSS3 (Bootstrap, Material Web)',
     icon: (
       <IconContext.Provider value={{ className: 'skills__skill-icon', size: '5.5rem' }}>
         <GrCss3 />
