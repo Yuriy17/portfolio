@@ -25,3 +25,17 @@
   align-items: flex-end;
   justify-content:center;
 }
+
+.cv-button{
+  color: white !important;
+  background-color: #e27c7a;
+  font-size: 2rem;
+  position: absolute;
+  right: 15px;
+  top: 100px;
+  z-index: 1;
+}
+
+.cv-button:hover{
+  background-color: #ff9593;
+}

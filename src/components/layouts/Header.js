@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Nav, Row } from 'react-bootstrap';
+import { Button, Col, Container, Nav, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
@@ -31,6 +31,7 @@ const Header = () => (
           </Nav>
         </Col>
       </Row>
+      <Button className="cv-button" variant="info" href="/static/YuriyShilenkovResume.pdf" download>Download CV</Button>
     </Container>
   </header>
 );
