@@ -16,7 +16,6 @@ export default function Work(props) {
       </IconContext.Provider>
     );
   }
-  console.log(props);
 
   return (
     <Col className="works-list__column" xs={12} md={6} xl={4}>
