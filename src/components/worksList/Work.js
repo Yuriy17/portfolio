@@ -15,7 +15,7 @@ export default function Work(props) {
 
   if (githubUrl) {
     githubLink = (
-      <IconContext.Provider value={{ className: ' works-list__card-github-icon', size: '2.5rem' }}>
+      <IconContext.Provider value={{ className: ' works-list__card-github-icon'}}>
         <Card.Link href={githubUrl} className="works-list__card-link"  onClick={handleClick}>
           <FaGithubSquare />
         </Card.Link>

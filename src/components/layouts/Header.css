@@ -36,6 +36,18 @@
   z-index: 1;
 }
 
+
+.cv-button:link{
+  background-color: #ff9593;
+}
 .cv-button:hover{
+  background-color: #ff9593 !important;
+}
+
+.cv-button:active{
+  background-color: #fc615f;
+}
+
+.cv-button:visited{
   background-color: #ff9593;
 }
