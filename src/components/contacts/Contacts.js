@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { DiGithubAlt } from 'react-icons/di';
-import { FaTelegramPlane } from 'react-icons/fa';
+import { FaCode, FaTelegramPlane } from 'react-icons/fa';
 import { GrLinkedinOption } from 'react-icons/gr';
 import { IconContext } from 'react-icons/lib';
 import './Contacts.css';
@@ -28,19 +28,24 @@ export default function Contacts() {
             </div>
               
             <div className="icons-block">
-              <a href="https://www.linkedin.com/in/yuriyshilenkov/" target="__blank" className="icons-icon-circle">
+              <a href="https://www.linkedin.com/in/yuriyshilenkov/" target="__blank" title="linkedIn" className="icons-icon-circle">
                 <IconContext.Provider value={{ className: 'icons-icon', size: '2rem' }}>
                   <GrLinkedinOption />
                 </IconContext.Provider>
               </a>
-              <a href="https://github.com/Yuriy17" target="__blank" className="icons-icon-circle">
+              <a href="https://github.com/Yuriy17" target="__blank" title="github" className="icons-icon-circle">
                 <IconContext.Provider value={{ className: 'icons-icon', size: '2.5rem' }}>
                   <DiGithubAlt />
                 </IconContext.Provider>
               </a>
-              <a href="https://t.me/yuriy821" target="__blank" className="icons-icon-circle">
+              <a href="https://t.me/yuriy821" target="__blank" title="telegram" className="icons-icon-circle">
                 <IconContext.Provider value={{ className: 'icons-icon', size: '2rem' }}>
                   <FaTelegramPlane />
+                </IconContext.Provider>
+              </a>
+              <a href="https://www.codewars.com/users/Yuriy17" target="__blank" title="codewars" className="icons-icon-circle">
+                <IconContext.Provider value={{ className: 'icons-icon', size: '2rem' }}>
+                  <FaCode />
                 </IconContext.Provider>
               </a>
             </div>
