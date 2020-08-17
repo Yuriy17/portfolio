@@ -32,9 +32,15 @@
   font-size: 2rem;
   position: absolute;
   right: 15px;
-  top: 100px;
+  top: 150px;
   z-index: 1;
 }
+
+@media (min-width: 768px) { 
+  .cv-button{
+    top: 100px;
+  }
+ }
 
 
 .cv-button:link{
